@@ -8,11 +8,6 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // In-memory database for storing tasks
-
-
-
-
-
 let tasks = [
   { id: 1, title: 'Buy groceries', completed: false },
   { id: 2, title: 'Read a book', completed: true },
